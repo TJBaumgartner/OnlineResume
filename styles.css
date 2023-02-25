@@ -74,15 +74,17 @@ body{
 }
 .contact h1{
     color:white;
-    font-size: 2rem;
+    font-size: 2.3rem;
     letter-spacing: 1;
     font-weight: 600px;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 .contact ul{
     position: relative;
     color: white;
     font-size: 4rem;
+    margin-bottom: 1rem;
 }
 .contact a{
     position: relative;
@@ -104,7 +106,9 @@ body{
 }
 .education {
     padding: 4rem;
+    padding-bottom: 0rem;
     padding-top: 0rem;
+    margin-bottom: 4rem;
 }
 .education h1{
     color:white;
@@ -112,6 +116,7 @@ body{
     letter-spacing: 1;
     font-weight: 600px;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 .education h2{
     color: #03a9f4;
@@ -131,6 +136,7 @@ body{
     margin-bottom: 0.5rem;
 
 }
+
 .interests{
     padding: 4rem;
     padding-top: 0rem;
@@ -140,7 +146,8 @@ body{
     font-size: 2.5rem;
     letter-spacing: 1;
     font-weight: 600px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 .interests ul li{
     position: relative;
@@ -203,12 +210,14 @@ body{
 .experience{
     padding: 6rem;
     padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 .experience h1 {
     color: #003147;
     font-size: 3rem;
     border-bottom: 2px solid #003147;
     padding-bottom: 1rem;
+    text-transform: uppercase;
 }
 .experience h2 {
     color: #03a9f4;
@@ -253,4 +262,50 @@ body{
 }
 .experience p .fa{
     margin: 0.5rem;
+}
+.skills{
+    padding: 6rem;
+    padding-top: 0rem;
+}
+.skills h1{
+    color: #003147;
+    font-size: 3rem;
+    border-bottom: 2px solid #003147;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.skills h3{
+    color: #003147;
+    font-size: 2rem;
+}
+.skills li{
+    margin: 2rem 0;
+    padding: 1rem;
+}
+.bar{
+    background-color: #003147;
+    display: block;
+    height: 2rem;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.bar span{
+    height: 2rem;
+    background: #03a9f4;
+    float: left;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 90%;
+}
+.java{
+    width: 40%;
+}
+.javascript{
+    width: 20%;
+}
+.photoshop{
+    width: 70%;
 }

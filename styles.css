@@ -182,3 +182,57 @@ body{
     margin-top: 1rem;
     font-weight: 900;
 }
+.experience{
+    padding: 6rem;
+    padding-top: 3rem;
+}
+.experience h1 {
+    color: #003147;
+    font-size: 3rem;
+    border-bottom: 2px solid #003147;
+    padding-bottom: 1rem;
+}
+.experience h2 {
+    color: #03a9f4;
+    font-size: 2rem;
+}
+.experience h2 a{
+    color: #03a9f4;
+    font-size: 2rem;
+}
+.experience h2 a:hover{
+    color: #003147;
+    transition: 0.3s ease-in-out;
+}
+.experience p {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.experience ul li{
+    color: black;
+    font-size: 1.5rem;
+    list-style: circle;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.experience a {
+    color: black;
+    font-size: 1.5rem;
+}
+.experience a:hover{
+    color: #03a9f4;
+    transition: 0.3s ease-in-out;
+}
+.experience p span{
+    color: #03a9f4;
+    font-size: 1.5rem;
+    width: 90%;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+.experience p .fa{
+    margin: 0.5rem;
+}
